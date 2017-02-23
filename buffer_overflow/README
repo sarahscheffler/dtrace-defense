@@ -1,0 +1,15 @@
+Compiling shellcode: ( from https://thebrownnotebook.wordpress.com/2009/10/27/native-64-bit-hello-world-with-nasm-on-freebsd/ )
+
+Assemble with:
+    nasm -f elf64 -o shellcode.o shellcode.asm
+Link with:
+    ld -o shellcode shellcode.o
+Run with: (optional)
+    ./shellcode
+
+Compiling c code:
+    cc -m64 bufferover.c -o bufferover -z execstack -fno-stack-protector
+Run with:
+    ./bufferover
+or
+    ./bufferover < input.txt

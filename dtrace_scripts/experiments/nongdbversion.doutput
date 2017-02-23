@@ -1,0 +1,766 @@
+CPU     ID                    FUNCTION:NAME
+  0  57628                    select:return 
+write return: syslogd
+
+  0  58258                 sigreturn:return 
+write return: syslogd
+
+  0  57607                  setitimer:entry 
+write entry: syslogd
+write arg: 
+
+  0  57608                 setitimer:return 
+write return: syslogd
+
+  0  57627                     select:entry 
+write entry: syslogd
+write arg: 0
+
+  0  57448                      read:return 
+write return: csh
+
+  0  57449                      write:entry 
+write entry: csh
+write arg: 
+version er < harmlessj/buffer_
+
+  0  57450                     write:return 
+write return: csh
+
+  0  58103                sigprocmask:entry 
+write entry: csh
+write arg: 
+
+  0  58104               sigprocmask:return 
+write return: csh
+
+  0  57550                     ioctl:return 
+write return: csh
+
+  0  58103                sigprocmask:entry 
+write entry: csh
+write arg: 
+
+  0  58104               sigprocmask:return 
+write return: csh
+
+  0  57607                  setitimer:entry 
+write entry: csh
+write arg: 
+
+  0  57608                 setitimer:return 
+write return: csh
+
+  0  58103                sigprocmask:entry 
+write entry: csh
+write arg: 
+
+  0  58104               sigprocmask:return 
+write return: csh
+
+  0  57446                      fork:return 
+write return: csh
+
+  0  57606                   setpgid:return 
+write return: csh
+
+  0  58103                sigprocmask:entry 
+write entry: csh
+write arg: 
+
+  0  58104               sigprocmask:return 
+write return: csh
+
+  0  58103                sigprocmask:entry 
+write entry: csh
+write arg: 
+
+  0  58104               sigprocmask:return 
+write return: csh
+
+  0  57675                  getrusage:entry 
+write entry: csh
+write arg: 
+
+  0  57676                 getrusage:return 
+write return: csh
+
+  0  57675                  getrusage:entry 
+write entry: csh
+write arg: pf
+
+  0  57676                 getrusage:return 
+write return: csh
+
+  0  57482                    getpid:return 
+write return: csh
+
+  0  58255                  sigaction:entry 
+write entry: csh
+write arg: 
+
+  0  58256                 sigaction:return 
+write return: csh
+
+  0  58255                  sigaction:entry 
+write entry: csh
+write arg: 
+
+  0  58256                 sigaction:return 
+write return: csh
+
+  0  58255                  sigaction:entry 
+write entry: csh
+write arg: 
+
+  0  58256                 sigaction:return 
+write return: csh
+
+  0  58255                  sigaction:entry 
+write entry: csh
+write arg: 
+
+  0  58256                 sigaction:return 
+write return: csh
+
+  0  58255                  sigaction:entry 
+write entry: csh
+write arg: 
+
+  0  58256                 sigaction:return 
+write return: csh
+
+  0  58255                  sigaction:entry 
+write entry: csh
+write arg: 
+
+  0  58256                 sigaction:return 
+write return: csh
+
+  0  58103                sigprocmask:entry 
+write entry: csh
+write arg: 
+
+  0  58104               sigprocmask:return 
+write return: csh
+
+  0  57606                   setpgid:return 
+write return: csh
+
+  0  57550                     ioctl:return 
+write return: csh
+
+  0  58256                 sigaction:return 
+write return: csh
+
+  0  58255                  sigaction:entry 
+write entry: csh
+write arg: 
+
+  0  58256                 sigaction:return 
+write return: csh
+
+  0  57550                     ioctl:return 
+write return: csh
+
+  0  58255                  sigaction:entry 
+write entry: csh
+write arg: 
+
+  0  58256                 sigaction:return 
+write return: csh
+
+  0  58103                sigprocmask:entry 
+write entry: csh
+write arg: 
+
+  0  58104               sigprocmask:return 
+write return: csh
+
+  0  58103                sigprocmask:entry 
+write entry: csh
+write arg: 
+
+  0  58104               sigprocmask:return 
+write return: csh
+
+  0  57622                      dup2:return 
+write return: csh
+
+  0  57622                      dup2:return 
+write return: csh
+
+  0  57622                      dup2:return 
+write return: csh
+
+  0  58421                     openat:entry 
+write entry: csh
+write arg: nongdbversion
+
+  0  58422                    openat:return 
+write return: csh
+
+  0  57626                     fcntl:return 
+write return: csh
+
+  0  57626                     fcntl:return 
+write return: csh
+
+  0  57622                      dup2:return 
+write return: csh
+
+  0  57454                     close:return 
+write return: csh
+
+  0  57454                     close:return 
+write return: csh
+
+  0  57524                       dup:return 
+write return: csh
+
+  0  57626                     fcntl:return 
+write return: csh
+
+  0  57454                     close:return 
+write return: csh
+
+  0  57524                       dup:return 
+write return: csh
+
+  0  57626                     fcntl:return 
+write return: csh
+
+  0  57550                     ioctl:return 
+write return: csh
+
+  0  57550                     ioctl:return 
+write return: csh
+
+  0  58103                sigprocmask:entry 
+write entry: csh
+write arg: 
+
+  0  58104               sigprocmask:return 
+write return: csh
+
+  0  57559                     execve:entry 
+write entry: csh
+write arg: ðE
+
+  0  57560                    execve:return 
+write return: bufferover
+
+  0  58378                      mmap:return 
+write return: bufferover
+
+  0  57930                 issetugid:return 
+write return: bufferover
+
+  0  57821                      lstat:entry 
+write entry: bufferover
+write arg: 
+
+  0  57822                     lstat:return 
+write return: bufferover
+
+  0  57821                      lstat:entry 
+write entry: bufferover
+write arg: W
+
+  0  57822                     lstat:return 
+write return: bufferover
+
+  0  58421                     openat:entry 
+write entry: bufferover
+write arg: /etc/libmap.conf
+
+  0  58422                    openat:return 
+write return: bufferover
+
+  0  57819                      fstat:entry 
+write entry: bufferover
+write arg: 
+
+  0  57820                     fstat:return 
+write return: bufferover
+
+  0  58378                      mmap:return 
+write return: bufferover
+
+  0  57454                     close:return 
+write return: bufferover
+
+  0  57821                      lstat:entry 
+write entry: bufferover
+write arg: 
+
+  0  57822                     lstat:return 
+write return: bufferover
+
+  0  57821                      lstat:entry 
+write entry: bufferover
+write arg: W
+
+  0  57822                     lstat:return 
+write return: bufferover
+
+  0  57821                      lstat:entry 
+write entry: bufferover
+write arg: W
+
+  0  57822                     lstat:return 
+write return: bufferover
+
+  0  57821                      lstat:entry 
+write entry: bufferover
+write arg: W
+
+  0  57822                     lstat:return 
+write return: bufferover
+
+  0  57588                    munmap:return 
+write return: bufferover
+
+  0  58421                     openat:entry 
+write entry: bufferover
+write arg: /var/run/ld-elf.so.hints
+
+  0  58422                    openat:return 
+write return: bufferover
+
+  0  57447                       read:entry 
+write entry: bufferover
+write arg: 
+
+  0  57448                      read:return 
+write return: bufferover
+
+  0  57819                      fstat:entry 
+write entry: bufferover
+write arg: 
+
+  0  57820                     fstat:return 
+write return: bufferover
+
+  0  58380                     lseek:return 
+write return: bufferover
+
+  0  57447                       read:entry 
+write entry: bufferover
+write arg: 
+
+  0  57448                      read:return 
+write return: bufferover
+
+  0  57454                     close:return 
+write return: bufferover
+
+  0  57508                    access:return 
+write return: bufferover
+
+  0  58421                     openat:entry 
+write entry: bufferover
+write arg: /lib/libc.so.7
+
+  0  58422                    openat:return 
+write return: bufferover
+
+  0  57819                      fstat:entry 
+write entry: bufferover
+write arg: 
+
+  0  57820                     fstat:return 
+write return: bufferover
+
+  0  58378                      mmap:return 
+write return: bufferover
+
+  0  58378                      mmap:return 
+write return: bufferover
+
+  0  58378                      mmap:return 
+write return: bufferover
+
+  0  58378                      mmap:return 
+write return: bufferover
+
+  0  58378                      mmap:return 
+write return: bufferover
+
+  0  57588                    munmap:return 
+write return: bufferover
+
+  0  57454                     close:return 
+write return: bufferover
+
+  0  57588                    munmap:return 
+write return: bufferover
+
+  0  58378                      mmap:return 
+write return: bufferover
+
+  0  57771                    sysarch:entry 
+write entry: bufferover
+write arg: (c
+
+  0  57772                   sysarch:return 
+write return: bufferover
+
+  0  58103                sigprocmask:entry 
+write entry: bufferover
+write arg: ñÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+
+  0  58104               sigprocmask:return 
+write return: bufferover
+
+  0  58103                sigprocmask:entry 
+write entry: bufferover
+write arg: 
+
+  0  58104               sigprocmask:return 
+write return: bufferover
+
+  0  57557                   readlink:entry 
+write entry: bufferover
+write arg: 
+
+  0  57558                  readlink:return 
+write return: bufferover
+
+  0  57930                 issetugid:return 
+write return: bufferover
+
+  0  57846                  __sysctl:return 
+write return: bufferover
+
+  0  57846                  __sysctl:return 
+write return: bufferover
+
+  0  58378                      mmap:return 
+write return: bufferover
+
+  0  57588                    munmap:return 
+write return: bufferover
+
+  0  58378                      mmap:return 
+write return: bufferover
+
+  0  57588                    munmap:return 
+write return: bufferover
+
+  0  57588                    munmap:return 
+write return: bufferover
+
+  0  58103                sigprocmask:entry 
+write entry: bufferover
+write arg: ñÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+
+  0  58104               sigprocmask:return 
+write return: bufferover
+
+  0  58103                sigprocmask:entry 
+write entry: bufferover
+write arg: 
+
+  0  58104               sigprocmask:return 
+write return: bufferover
+
+  0  58103                sigprocmask:entry 
+write entry: bufferover
+write arg: ñÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+
+  0  58104               sigprocmask:return 
+write return: bufferover
+
+  0  58103                sigprocmask:entry 
+write entry: bufferover
+write arg: 
+
+  0  58104               sigprocmask:return 
+write return: bufferover
+
+  0  57819                      fstat:entry 
+write entry: bufferover
+write arg: Èëÿÿÿ
+
+  0  57820                     fstat:return 
+write return: bufferover
+
+  0  58378                      mmap:return 
+write return: bufferover
+
+  0  57550                     ioctl:return 
+write return: bufferover
+
+  0  57449                      write:entry 
+write entry: bufferover
+write arg: Buffer location is: 0x7fffffffea
+
+  0  57450                     write:return 
+write return: bufferover
+
+  0  57449                      write:entry 
+write entry: bufferover
+write arg: warning: this program uses gets(
+
+  0  57450                     write:return 
+write return: bufferover
+
+  0  57819                      fstat:entry 
+write entry: bufferover
+write arg: €éÿÿÿ
+
+  0  57820                     fstat:return 
+write return: bufferover
+
+  0  57448                      read:return 
+write return: bufferover
+
+  0  57447                       read:entry 
+write entry: bufferover
+write arg: ë
+
+  0  57448                      read:return 
+write return: bufferover
+
+  0  57449                      write:entry 
+write entry: bufferover
+write arg: The buffer is:
+ is: 0x7fffffffea
+
+  0  57450                     write:return 
+write return: bufferover
+
+  0  57449                      write:entry 
+write entry: bufferover
+write arg: ë
+e buffer is:
+ is: 0x7fffffffea
+
+  0  57450                     write:return 
+write return: bufferover
+
+  0  57449                      write:entry 
+write entry: bufferover
+write arg: Hello, World!
+
+  0  57450                     write:return 
+write return: bufferover
+
+  0  58106                sigsuspend:return 
+write return: csh
+
+  0  58258                 sigreturn:return 
+write return: csh
+
+  0  57455                      wait4:entry 
+write entry: csh
+write arg: 
+
+  0  57456                     wait4:return 
+write return: csh
+
+  0  57455                      wait4:entry 
+write entry: csh
+write arg: 
+
+  0  57456                     wait4:return 
+write return: csh
+
+  0  58103                sigprocmask:entry 
+write entry: csh
+write arg: 
+
+  0  58104               sigprocmask:return 
+write return: csh
+
+  0  57550                     ioctl:return 
+write return: csh
+
+  0  57550                     ioctl:return 
+write return: csh
+
+  0  58104               sigprocmask:return 
+write return: csh
+
+  0  57607                  setitimer:entry 
+write entry: csh
+write arg: 
+
+  0  57608                 setitimer:return 
+write return: csh
+
+  0  57550                     ioctl:return 
+write return: csh
+
+  0  57550                     ioctl:return 
+write return: csh
+
+  0  57550                     ioctl:return 
+write return: csh
+
+  0  57449                      write:entry 
+write entry: csh
+write arg: firechant@:~/dtrace_proj/buffer_
+
+  0  57450                     write:return 
+write return: csh
+
+  0  57447                       read:entry 
+write entry: csh
+write arg: D
+
+  0  57628                    select:return 
+write return: devd
+
+  0  57447                       read:entry 
+write entry: devd
+write arg: !system
+
+  0  57448                      read:return 
+write return: devd
+
+  0  57707                     sendto:entry 
+write entry: devd
+write arg: <14>Feb 23 12:28:09 devd: Proces
+
+  0  57708                    sendto:return 
+write return: devd
+
+  0  57628                    select:return 
+write return: syslogd
+
+  0  57499                   recvfrom:entry 
+write entry: syslogd
+write arg: <15>Feb 23 12:28:06 devd: Poppin
+
+  0  57707                     sendto:entry 
+write entry: devd
+write arg: <15>Feb 23 12:28:09 devd: Pushin
+
+  0  57708                    sendto:return 
+write return: devd
+
+  0  57707                     sendto:entry 
+write entry: devd
+write arg: <15>Feb 23 12:28:09 devd: Proces
+
+  0  57708                    sendto:return 
+write return: devd
+
+  0  57707                     sendto:entry 
+write entry: devd
+write arg: <15>Feb 23 12:28:09 devd: Poppin
+
+  0  57708                    sendto:return 
+write return: devd
+
+  0  57627                     select:entry 
+write entry: devd
+write arg: 8
+
+  0  57500                  recvfrom:return 
+write return: syslogd
+
+  0  58103                sigprocmask:entry 
+write entry: syslogd
+write arg:  
+
+  0  58104               sigprocmask:return 
+write return: syslogd
+
+  0  58103                sigprocmask:entry 
+write entry: syslogd
+write arg: 
+
+  0  58104               sigprocmask:return 
+write return: syslogd
+
+  0  57627                     select:entry 
+write entry: syslogd
+write arg: 0
+
+  0  57628                    select:return 
+write return: syslogd
+
+  0  57499                   recvfrom:entry 
+write entry: syslogd
+write arg: <14>Feb 23 12:28:09 devd: Proces
+
+  0  57500                  recvfrom:return 
+write return: syslogd
+
+  0  58103                sigprocmask:entry 
+write entry: syslogd
+write arg:  
+
+  0  58104               sigprocmask:return 
+write return: syslogd
+
+  0  58103                sigprocmask:entry 
+write entry: syslogd
+write arg: 
+
+  0  58104               sigprocmask:return 
+write return: syslogd
+
+  0  57627                     select:entry 
+write entry: syslogd
+write arg: 0
+
+  0  57628                    select:return 
+write return: syslogd
+
+  0  57499                   recvfrom:entry 
+write entry: syslogd
+write arg: <15>Feb 23 12:28:09 devd: Pushin
+
+  0  57500                  recvfrom:return 
+write return: syslogd
+
+  0  58103                sigprocmask:entry 
+write entry: syslogd
+write arg:  
+
+  0  58104               sigprocmask:return 
+write return: syslogd
+
+  0  58103                sigprocmask:entry 
+write entry: syslogd
+write arg: 
+
+  0  58104               sigprocmask:return 
+write return: syslogd
+
+  0  57627                     select:entry 
+write entry: syslogd
+write arg: 0
+
+  0  57628                    select:return 
+write return: syslogd
+
+  0  57499                   recvfrom:entry 
+write entry: syslogd
+write arg: <15>Feb 23 12:28:09 devd: Proces
+
+  0  57500                  recvfrom:return 
+write return: syslogd
+
+  0  58103                sigprocmask:entry 
+write entry: syslogd
+write arg:  
+
+  0  58104               sigprocmask:return 
+write return: syslogd
+
+  0  58103                sigprocmask:entry 
+write entry: syslogd
+write arg: 
+
+  0  58104               sigprocmask:return 
+write return: syslogd
+
+  0  57627                     select:entry 
+write entry: syslogd
+write arg: 0
+
