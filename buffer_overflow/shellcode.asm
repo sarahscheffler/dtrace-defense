@@ -1,3 +1,4 @@
+; Shellcode that prints "Hello, World!" to stdout and then exits.
 ; note: I created this by following these guides:
 ; https://www.exploit-db.com/docs/33698.pdf
 ; stackoverflow.com/questions/26823678/linux-64-bit-shellcode
