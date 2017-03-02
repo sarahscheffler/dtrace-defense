@@ -1,0 +1,2 @@
+Compiling improper_malloc:
+    cc -m64 improper_malloc.c -o improper_malloc -fno-builtin -O0
