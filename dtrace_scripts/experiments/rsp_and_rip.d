@@ -1,4 +1,4 @@
-syscall:::
+syscall:::entry
 /execname=="bufferover"/
 {
 	printf("\n");
