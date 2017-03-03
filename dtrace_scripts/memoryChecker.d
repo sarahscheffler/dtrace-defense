@@ -1,18 +1,13 @@
 ::malloc:entry
-/ arg0 > 1048576 /
+/ arg0 > 104857600 /
 {
-	printf("\nAllocated memory using malloc is more than 100MB for process %d.\n", $pid);
+	printf("\nAllocated memory using %s is %d which is more than 100MB for process %d.\n", probefunc, arg0, $pid);
 }
 
-::calloc:entry
-/ arg1 > 1048576 /
-{
-	printf("\nAllocated memory using calloc is more than 100MB for process %d.\n", $pid);
-}
-
+::calloc:entry,
 ::realloc:entry
-/ arg1 > 1048576 /
+/ arg1 > 104857600 /
 {
-	printf("\nAllocated memory using realloc is more than 100MB for process %d.\n", $pid);
+	printf("\nAllocated memory using %s is %d which is more than 100MB for process %d.\n", probefunc, arg1, $pid);
 }
 
