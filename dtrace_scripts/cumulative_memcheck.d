@@ -11,7 +11,7 @@ proc:::exec-success
 {} */
 
 fbt::malloc:entry
-/ execname!="dtrace" && self->totalmem + (unsigned long) arg0 <= 1048576 /
+/ execname!="dtrace" && self->totalmem + (unsigned long) arg0 <= 104857600 /
 {
     /* Add memory used */
     self->totalmem += (unsigned long) arg0;
@@ -20,7 +20,7 @@ fbt::malloc:entry
 
 fbt::calloc:entry,
 fbt::realloc:entry
-/ execname!="dtrace" && self->totalmem + (unsigned long) arg1 <= 1048576 /
+/ execname!="dtrace" && self->totalmem + (unsigned long) arg1 <= 104857600 /
 {
     /* Add memory used */
     self->totalmem += (unsigned long) arg1;
@@ -28,7 +28,7 @@ fbt::realloc:entry
 }
 
 fbt::malloc:entry
-/ execname!="dtrace" && self->totalmem + (unsigned long)arg0 > 1048576 /
+/ execname!="dtrace" && self->totalmem + (unsigned long)arg0 > 104857600 /
 {
     self->totalmem += (unsigned long) arg0;
 	printf("\nAllocated memory using %s is more than 100MB (%lu) for process %d\n", probefunc, self->totalmem, $pid);
@@ -36,7 +36,7 @@ fbt::malloc:entry
 
 fbt::calloc:entry,
 fbt::realloc:entry
-/ execname!="dtrace" && self->totalmem + (unsigned long)arg1 > 1048576 /
+/ execname!="dtrace" && self->totalmem + (unsigned long)arg1 > 104857600 /
 {
     self->totalmem += (unsigned long) arg1;
 	printf("\nAllocated memory using %s is more than 100MB (%x) for process %d\n", probefunc, self->totalmem, $pid);
